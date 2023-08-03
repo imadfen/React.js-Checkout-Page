@@ -47,7 +47,7 @@ function SuccessDialog({ isOpen, onClose }: { isOpen: boolean, onClose: () => vo
                                         <button
                                             type="button"
                                             className="inline-flex justify-center items-center rounded-md border border-transparent bg-[#f2984a54] px-4 py-2 text-sm font-medium text-[#f2994a] hover:bg-[#f58a2c62] focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                                            onClick={(e) => onClose()}
+                                            onClick={() => onClose()}
                                         >
                                             Got it, thanks!
                                         </button>
