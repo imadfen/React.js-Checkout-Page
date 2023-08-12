@@ -1,7 +1,7 @@
 # React.js-Checkout-Page
 
 This is a checkout form app created with React.js using Vite and styled using Tailwind CSS.
-The form is for display only and does not save any data, you just get a success notification on submit.
+The form is for display only and does not send the data, you just get a success notification on submit, and save data in local storage.
 
 ## Table of Contents
 
@@ -36,7 +36,13 @@ git clone https://github.com/imadfen/React.js-Checkout-Page.git
 cd React.js-Checkout-Page
 ```
 
-3. **Install dependencies:**
+3. **Create a .env file in the root of your project and set the encription key:**
+
+```env
+VITE_ENCRYPTION_KEY=your_random_letters_and_numbers
+```
+
+4. **Install dependencies:**
 ```bach
 npm install
 # or
